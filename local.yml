@@ -1,0 +1,44 @@
+- hosts: localhost
+  connection: local
+  vars_files:
+    - vars/taps.yml
+    - vars/binaries.yml
+    - vars/apps.yml
+    - vars/fonts.yml
+  vars_prompt:
+    - name: "hostname"
+      prompt: "Computer Hostname"
+      private: no
+  tasks:
+    - name: set computer hostname
+      command: "{{ item }}"
+      sudo: yes
+      with_items:
+       - scutil --set ComputerName "{{ hostname }}"
+       - scutil --set HostName "{{ hostname }}"
+       - scutil --set LocalHostName "{{ hostname }}"
+       - defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "{{ hostname }}"
+    - name: install homebrew
+      shell: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+             creates=/usr/local/bin/brew
+    - name: tap forumulas
+      homebrew_tap: tap={{ item }} state=present
+      with_items: taps
+    - name: update and upgrade homebrew
+      homebrew: update_homebrew=yes upgrade_all=yes
+    - name: install binaries
+      homebrew: name={{ item }} state=installed
+      with_items: binaries
+    - name: install apps
+      homebrew_cask: name={{ item }} state=present
+      with_items: apps
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+    - name: link alfred
+      shell: brew cask alfred link
+      when: "'alfred' in apps"
+    - name: install mackup
+      pip: name=mackup state=latest
+    - name: set osx defaults
+      script: files/.osx
+    - debug: msg="Now just setup DropBox, run 'mackup restore', and reboot"
