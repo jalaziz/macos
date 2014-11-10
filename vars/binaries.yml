@@ -40,8 +40,6 @@ binaries:
   - gzrt
 #  - lsof
   - vim
-  - ntfs-3g
-  - sshfs
   - byobu
   - tmux
   - tcpdump

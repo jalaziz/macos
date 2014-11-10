@@ -31,6 +31,9 @@ apps:
   - music-manager
   - mysqlworkbench
   - optimal-layout
+  - osxfuse
+  - paragon-ntfs
+  - paragon-extfs
   - parallels
   - pycharm
   - royal-tsx
@@ -43,6 +46,7 @@ apps:
   - smartgithg
   - smartsynchronize
   - spotify
+  - sshfs
   - steam
   - sublime-text3
   - mactex
