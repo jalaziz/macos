@@ -6,6 +6,8 @@ On a new machine, run:
 ```bash
 sudo easy_install pip
 sudo pip install ansible
-ansible-pull -K -d /tmp/bootstrap -i /tmp/bootstrap/hosts -U git://github.com/jalaziz/osx.git
+export PYTHONUNBUFFERED=1
+export PYTHONIOENCODING='utf-8'
+ansible-pull -K -d /tmp/bootstrap -i localhost, -U https://github.com/jalaziz/osx.git
 ```
 
