@@ -36,6 +36,7 @@ apps:
   - paragon-extfs
   - parallels
   - pycharm
+  - rcdefaultapp
   - royal-tsx
   - rubymine
   - scout
