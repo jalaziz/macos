@@ -25,9 +25,9 @@ apps:
   - kaleidoscope
   - keka
   - kitematic
+  - logitech-control-center
   - logitech-unifying
   - macaw
-  - silverlight
   - music-manager
   - mysqlworkbench
   - optimal-layout
@@ -37,6 +37,7 @@ apps:
   - rubymine
   - scout
   - scroll-reverser
+  - silverlight
   - skim
   - skype
   - smartgithg
