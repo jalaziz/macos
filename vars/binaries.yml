@@ -38,7 +38,7 @@ binaries:
   - ack
   - openssh
   - gzrt
-  - lsof
+#  - lsof
   - vim
   - ntfs-3g
   - sshfs
