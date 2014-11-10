@@ -3,7 +3,6 @@ binaries:
   - coreutils
   - bash
   - autossh
-  - brew-cask
   - git
   - ssh-copy-id
   - findutils
