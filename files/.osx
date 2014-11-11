@@ -155,7 +155,7 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 #defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
 #defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
-# Disable â€œnaturalâ€ (Lion-style) scrolling
+# Disable "natural" (Lion-style) scrolling
 #defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 # Increase sound quality for Bluetooth headphones/headsets
@@ -165,6 +165,9 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 #defaults write "com.apple.sound.beep.feedback" -int 0
 #defaults write com.apple.systemsound 'com.apple.sound.beep.volume' -float 0
 #defaults write "com.apple.systemsound" "com.apple.sound.uiaudio.enabled" -int 0
+
+# Enable standard function keys
+defaults write -g com.apple.keyboard.fnState -bool true
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
