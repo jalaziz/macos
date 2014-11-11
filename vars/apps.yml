@@ -49,8 +49,8 @@ apps:
   - sshfs
   - steam
   - sublime-text3
-  - mactex
-  - texmaker
+#  - mactex
+#  - texmaker
   - todoist
   - totalfinder
   - transmit
