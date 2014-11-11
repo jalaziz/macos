@@ -26,7 +26,6 @@ apps:
   - keka
   - kitematic
   - logitech-control-center
-  - logitech-unifying
   - macaw
   - music-manager
   - mysqlworkbench
