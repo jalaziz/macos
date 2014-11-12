@@ -41,6 +41,10 @@
       homebrew_cask: name={{ item }} state=present
       with_items: apps
       environment: cask_env
+    - name: install fonts
+      homebrew_cask: name={{ item }} state=present
+      with_items: fonts
+      environment: cask_env
     - name: link alfred
       shell: brew cask alfred link
       when: "'alfred' in apps"
