@@ -36,6 +36,12 @@ apps:
   - paragon-extfs
   - parallels
   - pycharm
+  - qlcolorcode
+  - qlimagesize
+  - qlmarkdown
+  - qlrest
+  - qlprettypatch
+  - qlstephen
   - rcdefaultapp
   - royal-tsx
   - rubymine
