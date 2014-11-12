@@ -64,3 +64,4 @@ binaries:
   - apple-gcc42
   - gitslave
   - rbenv
+  - enchant
