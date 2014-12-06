@@ -12,10 +12,12 @@ apps:
   - bartender
   - beyond-compare
   - cd-to
+  - charles
   - crashplan
   - dropbox
   - filezilla
   - firefox
+  - flash-player
   - gfxcardstatus
   - google-chrome-dev
   - google-drive
@@ -25,6 +27,7 @@ apps:
   - intellij-idea
   - istat-menus
   - iterm2
+  - java
   - jumpshare
   - kaleidoscope
   - keka
@@ -35,15 +38,15 @@ apps:
   - mysqlworkbench
   - optimal-layout
   - osxfuse
-  - paragon-ntfs
   - paragon-extfs
-  - parallels
+  - paragon-ntfs
+  - parallels-desktop
   - pycharm
   - qlcolorcode
   - qlimagesize
   - qlmarkdown
-  - qlrest
   - qlprettypatch
+  - qlrest
   - qlstephen
   - rcdefaultapp
   - royal-tsx
@@ -53,7 +56,7 @@ apps:
   - silverlight
   - skim
   - skype
-  - smartgithg
+  - smartgit
   - smartsynchronize
   - spotify
   - sshfs
@@ -67,6 +70,9 @@ apps:
   - vagrant
   - virtualbox
   - vlc
+# - vmware-fusion
   - wineskin-winery
+  - wireshark
   - xmind
+  - xquartz
   - xscope
