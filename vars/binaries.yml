@@ -1,67 +1,67 @@
 ---
 binaries:
-  - coreutils
-  - bash
-  - autossh
-  - git
-  - ssh-copy-id
-  - findutils
-  - mysql
-  - fontforge
-  - pkg-config
-  - python
-  - htop-osx
-  - lftp
-  - watch
-  - nginx
-  - zsh
-  - qt
-  - autojump
-  - hive
-  - xdotool
-  - mercurial
-  - packer
-  - gource
-  - rsync
-  - redis
-  - boot2docker
-  - go
-  - docker
-  - meld
-  - wireshark
-  - git-extras
-  - jq
-  - gawk
-  - maven
-  - wget
-  - bazaar
   - ack
-  - openssh
-  - gzrt
-#  - lsof
-  - vim
+  - apple-gcc42
+  - autojump
+  - autossh
+  - bash
+  - bazaar
+  - boot2docker
   - byobu
-  - tmux
-  - tcpdump
   - cabal-install
-  - mackup
-  - hub
-  - dpkg
-  - grep
-  - mtr
-  - fasd
-  - gnupg
+  - coreutils
   - diffutils
-  - p7zip
+  - docker
+  - dpkg
+  - enchant
+  - fasd
+  - findutils
+  - fontforge
+  - gawk
+  - gcc
+  - git
+  - git-extras
+  - gitslave
+  - gnupg
+  - go
+  - gource
+  - grep
+  - gzrt
+  - hive
+  - htop-osx
+  - hub
+  - jq
+  - lastpass-cli
+  - leiningen
+  - lftp
+#  - lsof
+  - mackup
+  - maven
   - maven2
   - maven30
-  - gcc
-  - leiningen
-  - ruby-build
+  - meld
+  - mercurial
+  - mtr
+  - mysql
+  - nginx
   - node
+  - openssh
+  - p7zip
+  - packer
+  - pkg-config
   - protobuf
-  - lastpass-cli
-  - apple-gcc42
-  - gitslave
+  - python
+  - qt
   - rbenv
-  - enchant
+  - redis
+  - rsync
+  - ruby-build
+  - ssh-copy-id
+  - tcpdump
+  - tmux
+  - vim
+  - watch
+  - wget
+  - wireshark
+  - xdotool
+  - zsh
