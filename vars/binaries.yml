@@ -8,6 +8,7 @@ binaries:
   - bazaar
   - boot2docker
   - byobu
+  - c-ares
   - cabal-install
   - coreutils
   - curl
@@ -20,10 +21,12 @@ binaries:
   - fontforge
   - gawk
   - gcc
+  - geoip
   - git
   - git-extras
   - gitslave
   - gnupg
+  - gnutls
   - go
   - gource
   - grep
@@ -36,6 +39,8 @@ binaries:
   - lastpass-cli
   - leiningen
   - lftp
+  - libgcrypt
+  - libsodium
   - lsof
   - mackup
   - maven
@@ -51,6 +56,7 @@ binaries:
   - p7zip
   - packer
   - pkg-config
+  - postgresql
   - protobuf
   - python
   - qt
