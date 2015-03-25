@@ -3,6 +3,7 @@ taps:
   - homebrew/binary
   - homebrew/dupes
   - homebrew/versions
+  - homebrew/x11
   - caskroom/cask
   - caskroom/fonts
   - caskroom/versions
