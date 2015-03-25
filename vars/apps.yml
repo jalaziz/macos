@@ -10,6 +10,7 @@ apps:
   - atom
   - bartender
   - beyond-compare
+  - bittorrent-sync
   - cd-to
   - charles
   - crashplan
