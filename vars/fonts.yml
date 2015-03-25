@@ -1,7 +1,9 @@
 ---
 fonts:
-  - font-roboto
-  - font-meslo-lg-for-powerline
-  - font-inconsolata-for-powerline
+  - font-inconsolata
+  - font-inconsolata-dz
   - font-inconsolata-dz-for-powerline
+  - font-inconsolata-for-powerline
   - font-inconsolata-g-for-powerline
+  - font-meslo-lg-for-powerline
+  - font-roboto
