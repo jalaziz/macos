@@ -3,7 +3,6 @@ apps:
   - adium
   - adobe-creative-cloud
   - airdroid
-  - airmail-beta
   - airparrot
   - alfred
   - android-file-transfer
@@ -15,6 +14,7 @@ apps:
   - charles
   - crashplan
   - dropbox
+  - entropy
   - filezilla
   - firefox
   - flash-player
@@ -24,23 +24,27 @@ apps:
   - google-hangouts
   - gpgtools
   - imageoptim
+  - inssider
   - intellij-idea
   - istat-menus
   - iterm2
   - java
+  - java7
   - jumpshare
   - kaleidoscope
   - keka
   - kitematic
+  - lighttable
   - logitech-control-center
   - macaw
+#  - mactex
   - music-manager
   - mysqlworkbench
   - optimal-layout
   - osxfuse
   - paragon-extfs
   - paragon-ntfs
-  - parallels-desktop
+  - pgadmin3
   - pycharm
   - qlcolorcode
   - qlimagesize
@@ -59,18 +63,17 @@ apps:
   - smartgit
   - smartsynchronize
   - spotify
+  - sqlworkbenchj
   - sshfs
   - steam
   - sublime-text3
-#  - mactex
 #  - texmaker
-  - todoist
   - totalfinder
   - transmit
   - vagrant
   - virtualbox
   - vlc
-# - vmware-fusion
+  - vmware-fusion
   - wineskin-winery
   - wireshark
   - xmind
