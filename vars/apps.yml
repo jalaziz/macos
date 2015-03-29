@@ -36,6 +36,7 @@ apps:
   - keka
   - kitematic
   - lighttable
+  - little-snitch
   - logitech-control-center
   - macaw
 #  - mactex
