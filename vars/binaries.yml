@@ -31,6 +31,7 @@ binaries:
   - gnutls
   - go
   - gource
+  - gradle
   - grep
   - gzrt
   - hive
