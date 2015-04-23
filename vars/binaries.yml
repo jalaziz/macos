@@ -1,6 +1,7 @@
 ---
 binaries:
   - ack
+  - android-platform-tools
   - apple-gcc42
   - autojump
   - autossh
