@@ -23,6 +23,7 @@ binaries:
   - fasd
   - findutils
   - fontforge
+  - fpp
   - gawk
   - gcc
   - geoip
