@@ -37,6 +37,7 @@ binaries:
   - gradle
   - grep
   - gzrt
+  - heroku-toolbelt
   - hive
   - htop-osx
   - hub
