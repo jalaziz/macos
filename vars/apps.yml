@@ -32,6 +32,7 @@ apps:
   - istat-menus
   - iterm2
   - java
+  - java6
   - java7
   - jumpshare
   - kaleidoscope
