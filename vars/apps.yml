@@ -79,6 +79,7 @@ apps:
   - virtualbox
   - vlc
   - vmware-fusion
+  - vyprvpn
   - wineskin-winery
   - wireshark
   - xmind
