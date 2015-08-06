@@ -15,6 +15,7 @@ apps:
   - bleep
   - cd-to
   - charles
+  - chromecast
   - crashplan
   - dropbox
   - entropy
