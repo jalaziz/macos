@@ -72,6 +72,7 @@ binaries:
   - rename
   - rsync
   - ruby-build
+  - sbt
   - ssh-copy-id
   - tcpdump
   - thefuck
