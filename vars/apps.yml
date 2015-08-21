@@ -35,7 +35,6 @@ apps:
   - java
   - java6
   - java7
-  - jumpshare
   - kaleidoscope
   - keka
   - kitematic
