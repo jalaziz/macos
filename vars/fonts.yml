@@ -1,5 +1,6 @@
 ---
 fonts:
+  - font-hack
   - font-inconsolata
   - font-inconsolata-dz
   - font-inconsolata-dz-for-powerline
