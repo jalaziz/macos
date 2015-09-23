@@ -5,6 +5,7 @@
     - vars/binaries.yml
     - vars/apps.yml
     - vars/fonts.yml
+    - vars/pip.yml
   vars_prompt:
     - name: "hostname"
       prompt: "Computer Hostname"
@@ -45,11 +46,12 @@
       homebrew_cask: name={{ item }} state=present
       with_items: fonts
       environment: cask_env
+    - name: install python packages
+      pip: name={{ item }} state=latest
+      with_items: python_packages
     - name: link alfred
       shell: brew cask alfred link
       when: "'alfred' in apps"
-    - name: install mackup
-      pip: name=mackup state=latest
     - name: set osx defaults
       script: files/.osx
     - debug: msg="Now just setup DropBox, run 'mackup restore', and reboot"

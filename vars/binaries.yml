@@ -42,7 +42,6 @@ binaries:
   - hub
   - jq
   - jython
-  - lastpass-cli
   - leiningen
   - lftp
   - libgcrypt
@@ -78,6 +77,7 @@ binaries:
   - tcpdump
   - thefuck
   - tmux
+  - uwsgi
   - vim
   - watch
   - wget

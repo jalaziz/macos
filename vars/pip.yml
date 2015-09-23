@@ -1,0 +1,35 @@
+---
+python_packages:
+  - arrow
+  - awscli
+  - boto
+  - click
+  - colorama
+  - docopt
+  - Envelopes
+  - envoy
+  - Fabric
+  - flake8
+  - Flask
+  - futures
+  - gevent
+  - GreenletProfiler
+  - gunicorn
+  - hiredis
+  - httpie
+  - httpie-oauth
+  - hypothesis
+  - ipython
+  - Jinja2
+  - line-profiler
+  - nose
+  - passlib
+  - pbr
+  - Pillow
+  - powerline-status
+  - psutil
+  - pylint
+  - saws
+  - six
+  - speedtest-cli
+  - virtualenv
