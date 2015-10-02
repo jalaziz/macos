@@ -6,7 +6,6 @@ apps:
   - airparrot
   - alfred
   - android-file-transfer
-  - asepsis
   - atom
   - battle-net
   - bartender
@@ -73,7 +72,6 @@ apps:
   - steam
   - sublime-text3
 #  - texmaker
-  - totalfinder
   - transmit
   - vagrant
   - virtualbox
