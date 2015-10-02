@@ -44,7 +44,6 @@ apps:
 #  - mactex
   - music-manager
   - mysqlworkbench
-  - optimal-layout
   - osxfuse
   - paragon-extfs
   - paragon-ntfs
