@@ -1,6 +1,7 @@
 ---
 python_packages:
   - arrow
+  - autopep8
   - awscli
   - boto
   - click
