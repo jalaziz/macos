@@ -54,7 +54,6 @@ apps:
   - qlmarkdown
   - qlprettypatch
   - qlrest
-  - qlstephen
   - rcdefaultapp
   - royal-tsx
   - rubymine
