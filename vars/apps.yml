@@ -48,6 +48,7 @@ apps:
   - paragon-extfs
   - paragon-ntfs
   - pgadmin3
+  - postico
   - pycharm
   - qlcolorcode
   - qlimagesize
