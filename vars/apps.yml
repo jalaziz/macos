@@ -1,9 +1,7 @@
 ---
 apps:
-  - adium
   - adobe-creative-cloud
   - airdroid
-  - airparrot
   - alfred
   - android-file-transfer
   - atom
@@ -12,6 +10,7 @@ apps:
   - beyond-compare
   - bittorrent-sync
   - bleep
+  - caret
   - cd-to
   - charles
   - chromecast
@@ -42,12 +41,12 @@ apps:
   - logitech-control-center
   - macaw
 #  - mactex
-  - music-manager
+  - mono-mdk
+  - moom
   - mysqlworkbench
   - osxfuse
   - paragon-extfs
   - paragon-ntfs
-  - pgadmin3
   - postico
   - pycharm
   - qlcolorcode
@@ -60,7 +59,6 @@ apps:
   - rubymine
   - scout
   - scroll-reverser
-  - silverlight
   - skim
   - skype
   - smartgit
@@ -71,6 +69,7 @@ apps:
   - steam
   - sublime-text3
 #  - texmaker
+  - telegram
   - transmit
   - vagrant
   - virtualbox
