@@ -1,5 +1,6 @@
 ---
 fonts:
+  - font-fira-code
   - font-hack
   - font-inconsolata
   - font-inconsolata-dz
