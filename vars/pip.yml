@@ -3,6 +3,7 @@ python_packages:
   - arrow
   - autopep8
   - awscli
+  - aws-shell
   - boto
   - click
   - colorama
