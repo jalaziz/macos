@@ -82,5 +82,6 @@ binaries:
   - watch
   - wget
   - xdotool
+  - ykpers
   - zeromq
   - zsh
