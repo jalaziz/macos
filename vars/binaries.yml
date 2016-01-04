@@ -75,6 +75,7 @@ binaries:
   - socat
   - ssh-copy-id
   - tcpdump
+  - terraform
   - thefuck
   - tmux
   - uwsgi
