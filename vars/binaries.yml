@@ -12,6 +12,7 @@ binaries:
   - c-ares
   - cabal-install
   - ccat
+  - consul
   - coreutils
   - curl
   - diffutils
@@ -72,6 +73,7 @@ binaries:
   - rsync
   - ruby-build
   - sbt
+  - scala
   - socat
   - ssh-copy-id
   - tcpdump
@@ -79,6 +81,7 @@ binaries:
   - thefuck
   - tmux
   - uwsgi
+  - vault
   - vim
   - watch
   - wget
