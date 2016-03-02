@@ -21,6 +21,7 @@ apps:
   - firefox
   - flash-player
   - gfxcardstatus
+  - gitkraken
   - google-chrome-dev
   - google-drive
   - google-hangouts
