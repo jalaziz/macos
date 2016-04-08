@@ -43,6 +43,7 @@ binaries:
   - hub
   - jq
   - jython
+  - keybase
   - leiningen
   - lftp
   - libgcrypt
