@@ -32,6 +32,7 @@ apps:
   - intellij-idea
   - istat-menus
   - iterm2
+  - iterm2-beta
   - java
   - java6
   - java7
