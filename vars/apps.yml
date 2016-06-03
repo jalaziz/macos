@@ -1,20 +1,20 @@
 ---
 apps:
+  - 1password-beta
   - adobe-creative-cloud
-  - airdroid
   - alfred
   - alternote
   - android-file-transfer
   - atom
-  - battle-net
+  - atom-beta
   - bartender
+  - battle-net
   - beyond-compare
   - bittorrent-sync
   - bleep
   - caret
   - cd-to
   - charles
-  - chromecast
   - crashplan
   - dropbox
   - entropy
@@ -42,7 +42,7 @@ apps:
   - little-snitch
   - logitech-control-center
   - macaw
-#  - mactex
+  - microsoft-office
   - mono-mdk
   - moom
   - mysqlworkbench
@@ -57,7 +57,7 @@ apps:
   - qlprettypatch
   - qlrest
   - rcdefaultapp
-  - royal-tsx
+  - royal-tsx-beta
   - rubymine
   - scout
   - scroll-reverser
@@ -70,7 +70,6 @@ apps:
   - sshfs
   - steam
   - sublime-text3
-#  - texmaker
   - telegram
   - transmit
   - vagrant
@@ -83,3 +82,4 @@ apps:
   - xmind
   - xquartz
   - xscope
+  - yubikey-personalization-gui
