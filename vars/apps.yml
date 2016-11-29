@@ -17,6 +17,7 @@ apps:
   - charles
   - crashplan
   - dropbox
+  - docker-beta
   - entropy
   - filezilla
   - firefox
@@ -36,6 +37,7 @@ apps:
   - java
   - java6
   - java7
+  - jce-unlimited-strength-policy
   - kaleidoscope
   - keka
   - keybase
