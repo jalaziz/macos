@@ -13,11 +13,11 @@ apps:
   - bittorrent-sync
   - bleep
   - caret
-  - cd-to
   - charles
   - crashplan
   - dropbox
   - docker-beta
+  - ealeksandrov-cd-to
   - entropy
   - filezilla
   - firefox
@@ -30,7 +30,6 @@ apps:
   - gpgtools
   - imageoptim
   - inssider
-  - intellij-idea
   - istat-menus
   - iterm2
   - iterm2-beta
@@ -38,11 +37,11 @@ apps:
   - java6
   - java7
   - jce-unlimited-strength-policy
+  - jetbrains-toolbox
   - kaleidoscope
   - keka
   - keybase
   - kitematic
-  - lighttable
   - little-snitch
   - logitech-control-center
   - microsoft-office
@@ -54,7 +53,6 @@ apps:
   - paragon-ntfs
   - postico
   - postman
-  - pycharm
   - qlcolorcode
   - qlimagesize
   - qlmarkdown
@@ -62,9 +60,7 @@ apps:
   - qlrest
   - rcdefaultapp
   - royal-tsx-beta
-  - rubymine
   - scroll-reverser
-  - skim
   - skype
   - smartgit
   - smartsynchronize
@@ -73,7 +69,6 @@ apps:
   - sshfs
   - steam
   - sublime-text3
-  - telegram
   - transmit
   - vagrant
   - virtualbox
