@@ -28,6 +28,7 @@ apps:
   - google-drive
   - google-hangouts
   - gpgtools
+  - hyper
   - imageoptim
   - inssider
   - istat-menus
