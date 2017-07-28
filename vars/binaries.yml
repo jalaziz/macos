@@ -11,6 +11,7 @@ binaries:
   - byobu
   - c-ares
   - cabal-install
+  - cassandra
   - ccat
   - consul
   - coreutils
