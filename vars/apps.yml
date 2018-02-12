@@ -36,7 +36,7 @@ apps:
   - iterm2-beta
   - java
   - java6
-  - java7
+  - java8
   - jce-unlimited-strength-policy
   - jetbrains-toolbox
   - kaleidoscope
