@@ -44,6 +44,7 @@ apps:
   - keybase
   - kitematic
   - little-snitch
+  - lg-onscreencontrol
   - logitech-control-center
   - microsoft-office
   - mono-mdk
