@@ -61,12 +61,14 @@ binaries:
   - nmap
   - node
   - openssh
+  - osquery
   - p7zip
   - packer
   - pkg-config
   - postgresql
   - protobuf
   - python
+  - python2
   - qt
   - rbenv
   - redis
