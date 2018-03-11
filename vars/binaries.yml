@@ -13,6 +13,7 @@ binaries:
   - cabal-install
   - cassandra
   - ccat
+  - certbot
   - consul
   - coreutils
   - curl
