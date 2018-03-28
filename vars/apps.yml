@@ -47,6 +47,7 @@ apps:
   - lg-onscreencontrol
   - logitech-control-center
   - microsoft-office
+  - mongodb-compass
   - mono-mdk
   - moom
   - mysqlworkbench
