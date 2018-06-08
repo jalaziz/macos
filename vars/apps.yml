@@ -51,6 +51,7 @@ apps:
   - mono-mdk
   - moom
   - mysqlworkbench
+  - notion
   - osxfuse
   - paragon-extfs
   - paragon-ntfs
