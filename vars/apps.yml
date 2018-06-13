@@ -4,7 +4,6 @@ apps:
   - adobe-creative-cloud
   - alternote
   - android-file-transfer
-  - atom
   - atom-beta
   - backblaze
   - bartender
@@ -71,6 +70,7 @@ apps:
   - transmit
   - vagrant
   - virtualbox
+  - visual-studio-code-insiders
   - vlc
   - vmware-fusion
   - vyprvpn
