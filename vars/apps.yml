@@ -18,7 +18,7 @@ apps:
   - gfxcardstatus
   - gitter
   - google-chrome-dev
-  - google-drive
+  - google-drive-file-stream
   - google-hangouts
   - gpgtools
   - hyper
