@@ -38,6 +38,7 @@ apps:
   - little-snitch
   - lg-onscreencontrol
   - logitech-control-center
+  - macmediakeyforwarder
   - microsoft-office
   - mongodb-compass
   - mono-mdk
