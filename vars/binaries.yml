@@ -7,7 +7,6 @@ binaries:
   - autossh
   - bash
   - bazaar
-  - boot2docker
   - byobu
   - c-ares
   - cabal-install
@@ -18,9 +17,6 @@ binaries:
   - coreutils
   - curl
   - diffutils
-  - docker
-  - docker-compose
-  - docker-machine
   - dpkg
   - enchant
   - fasd
