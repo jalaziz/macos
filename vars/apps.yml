@@ -20,7 +20,7 @@ apps:
   - google-chrome-dev
   - google-drive-file-stream
   - google-hangouts
-  - gpgtools
+  - gpg-suite-no-mail
   - hyper
   - imageoptim
   - inssider
