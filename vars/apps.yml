@@ -14,7 +14,6 @@ apps:
   - docker-beta
   - ealeksandrov-cd-to
   - firefox
-  - flash-player
   - gfxcardstatus
   - gitter
   - google-chrome-dev
