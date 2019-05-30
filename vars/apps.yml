@@ -42,7 +42,6 @@ apps:
   - mongodb-compass
   - mono-mdk
   - moom
-  - mysqlworkbench
   - notion
   - osxfuse
   - paragon-extfs
