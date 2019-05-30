@@ -28,6 +28,7 @@ apps:
   - java
   - java6
   - java8
+  - java11
   - jce-unlimited-strength-policy
   - jetbrains-toolbox
   - kaleidoscope
@@ -54,16 +55,15 @@ apps:
   - qlprettypatch
   - qlrest
   - rcdefaultapp
-  - royal-tsx-beta
+  - royal-tsx
   - scroll-reverser
   - skype
   - sloth
   - smartgit
   - smartsynchronize
   - spotify
-  - sshfs
   - steam
-  - sublime-text3
+  - sublime-text
   - transmit
   - vagrant
   - virtualbox
@@ -76,4 +76,4 @@ apps:
   - xmind
   - xquartz
   - xscope
-  - yubikey-personalization-gui
+  - yubico-yubikey-manager
