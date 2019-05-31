@@ -2,6 +2,7 @@
 apps:
   - 1password-beta
   - adobe-creative-cloud
+  - adoptopenjdk8
   - alternote
   - android-file-transfer
   - atom-beta
@@ -27,7 +28,6 @@ apps:
   - iterm2-beta
   - java
   - java6
-  - java8
   - java11
   - jce-unlimited-strength-policy
   - jetbrains-toolbox
