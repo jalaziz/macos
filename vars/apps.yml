@@ -68,6 +68,7 @@ apps:
   - vagrant
   - virtualbox
   - visual-studio-code-insiders
+  - visualvm
   - vlc
   - vmware-fusion
   - vyprvpn
