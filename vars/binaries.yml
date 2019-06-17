@@ -61,6 +61,7 @@ binaries:
   - osquery
   - p7zip
   - packer
+  - pipenv
   - pkg-config
   - postgresql
   - protobuf
