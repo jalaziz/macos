@@ -57,6 +57,7 @@ binaries:
   - nginx
   - nmap
   - node
+  - nvm
   - openssh
   - osquery
   - p7zip
