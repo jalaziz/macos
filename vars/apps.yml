@@ -4,12 +4,15 @@ apps:
   - adobe-creative-cloud
   - adoptopenjdk8
   - atom-beta
+  - aws-vault
   - backblaze
   - bartender
   - beyond-compare
   - charles
+  - discord
+  - docker-edge
+  - dotnet-sdk
   - dropbox
-  - docker-beta
   - ealeksandrov-cd-to
   - firefox
   - gitter
@@ -25,17 +28,23 @@ apps:
   - jetbrains-toolbox
   - keka
   - keybase
+  - keystore-explorer
+  - kiibohd-configurator
   - ledger-live
   - little-snitch
   - lg-onscreencontrol
+  - logitech-options
   - microsoft-office
   - mongodb-compass
   - mono-mdk
   - moom
+  - ngrok
+  - nomachine
   - notion
   - osxfuse
   - paragon-extfs
   - paragon-ntfs
+  - pgadmin4
   - postico
   - postman
   - qlcolorcode
@@ -43,6 +52,7 @@ apps:
   - qlmarkdown
   - qlprettypatch
   - qlrest
+  - quik
   - rcdefaultapp
   - royal-tsx
   - scroll-reverser
@@ -51,9 +61,9 @@ apps:
   - smartsynchronize
   - spotify
   - sublime-text
+  - subsurface
   - transmit
   - vagrant
-  - virtualbox
   - visual-studio-code-insiders
   - visualvm
   - vlc
@@ -64,5 +74,5 @@ apps:
   - xquartz
   - xscope
   - yubico-yubikey-manager
-  - zulu8
   - zulu11
+  - zulu8
