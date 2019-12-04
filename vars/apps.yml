@@ -3,8 +3,6 @@ apps:
   - 1password-beta
   - adobe-creative-cloud
   - adoptopenjdk8
-  - alternote
-  - android-file-transfer
   - atom-beta
   - backblaze
   - bartender
@@ -14,7 +12,6 @@ apps:
   - docker-beta
   - ealeksandrov-cd-to
   - firefox
-  - gfxcardstatus
   - gitter
   - google-chrome-dev
   - google-drive-file-stream
@@ -30,14 +27,11 @@ apps:
   - java11
   - jce-unlimited-strength-policy
   - jetbrains-toolbox
-  - kaleidoscope
   - keka
   - keybase
   - ledger-live
   - little-snitch
   - lg-onscreencontrol
-  - logitech-control-center
-  - macmediakeyforwarder
   - microsoft-office
   - mongodb-compass
   - mono-mdk
@@ -72,7 +66,6 @@ apps:
   - vyprvpn
   - wineskin-winery
   - wireshark
-  - xmind
   - xquartz
   - xscope
   - yubico-yubikey-manager
