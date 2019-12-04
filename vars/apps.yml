@@ -22,10 +22,6 @@ apps:
   - inssider
   - istat-menus
   - iterm2-beta
-  - java
-  - java6
-  - java11
-  - jce-unlimited-strength-policy
   - jetbrains-toolbox
   - keka
   - keybase
@@ -50,7 +46,6 @@ apps:
   - rcdefaultapp
   - royal-tsx
   - scroll-reverser
-  - skype
   - sloth
   - smartgit
   - smartsynchronize
@@ -69,3 +64,5 @@ apps:
   - xquartz
   - xscope
   - yubico-yubikey-manager
+  - zulu8
+  - zulu11
