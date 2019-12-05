@@ -3,6 +3,7 @@ apps:
   - 1password-beta
   - adobe-creative-cloud
   - adoptopenjdk8
+  - android-sdk
   - atom-beta
   - aws-vault
   - backblaze
