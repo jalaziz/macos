@@ -49,9 +49,6 @@
     - name: install python packages
       pip: name={{ item }} state=latest
       with_items: python_packages
-    - name: link alfred
-      shell: brew cask alfred link
-      when: "'alfred' in apps"
     - name: set osx defaults
       script: files/.osx
     - debug: msg="Now just setup DropBox, run 'mackup restore', and reboot"
