@@ -63,6 +63,7 @@ binaries:
   - lftp
   - lsof
   - mackup
+  - mas
   - maven
   - mercurial
   - mtr
