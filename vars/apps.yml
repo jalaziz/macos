@@ -5,6 +5,7 @@ apps:
   - adoptopenjdk8
   - android-sdk
   - atom-beta
+  - authy
   - aws-vault
   - backblaze
   - bartender
