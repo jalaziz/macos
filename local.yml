@@ -1,22 +1,15 @@
 - hosts: localhost
   connection: local
   vars_files:
-    - vars/taps.yml
-    - vars/binaries.yml
-    - vars/apps.yml
-    - vars/fonts.yml
     - vars/pip.yml
   vars_prompt:
     - name: "hostname"
       prompt: "Computer Hostname"
       private: no
-  vars:
-    cask_env:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
   tasks:
     - name: set computer hostname
       command: "{{ item }}"
-      sudo: yes
+      become: yes
       with_items:
        - scutil --set ComputerName "{{ hostname }}"
        - scutil --set HostName "{{ hostname }}"
@@ -24,31 +17,22 @@
        - defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "{{ hostname }}"
     - name: install homebrew
       shell: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-             creates=/usr/local/bin/brew
-    - name: tap forumulas
-      homebrew_tap: tap={{ item }} state=present
-      with_items: taps
-    - name: update and upgrade homebrew
-      homebrew: update_homebrew=yes upgrade_all=yes
-    - name: install brew-cask
-      homebrew: name=brew-cask state=installed
-    - name: install XQuartz
-      homebrew_cask: name=xquartz state=installed
-      environment: cask_env
+      args:
+        creates: /usr/local/bin/brew
     - name: install binaries
-      homebrew: name={{ item }} state=installed
-      with_items: binaries
+      command: brew bundle --file files/Brewfile
     - name: install apps
-      homebrew_cask: name={{ item }} state=present
-      with_items: apps
-      environment: cask_env
+      command: brew bundle --file files/Brewfile.apps
+    - name: install mas apps
+      command: brew bundle --file files/Brewfile.mas
     - name: install fonts
-      homebrew_cask: name={{ item }} state=present
-      with_items: fonts
-      environment: cask_env
+      command: brew bundle --file files/Brewfile.fonts
     - name: install python packages
-      pip: name={{ item }} state=latest
-      with_items: python_packages
+      pip:
+        name: "{{ item }}"
+        state: latest
+      with_items: "{{ python_packages }}"
     - name: set osx defaults
       script: files/.osx
-    - debug: msg="Now just setup DropBox, run 'mackup restore', and reboot"
+    - debug:
+        msg: "Now just setup DropBox, run 'mackup restore', and reboot"
