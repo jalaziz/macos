@@ -1,5 +1,5 @@
 tap "homebrew/cask-fonts"
-tap "jalaziz/monoid"
+tap "sscotth/monoid"
 cask "font-fira-code"
 cask "font-fira-mono"
 cask "font-fira-mono-for-powerline"
