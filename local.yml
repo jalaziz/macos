@@ -34,7 +34,7 @@
         name: "{{ item }}"
         state: latest
       with_items: "{{ python_packages }}"
-    - name: set osx defaults
-      script: files/.osx
+    - name: set macos defaults
+      script: files/.macos
     - debug:
         msg: "Now just setup DropBox, run 'mackup restore', and reboot"
