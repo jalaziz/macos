@@ -2,19 +2,17 @@
 python_packages:
   - arrow
   - autopep8
-  - aws-shell
   - boto
+  - boto3
   - click
-  - colorama
+  - cryptography
+  - delegator.py
   - docopt
   - Envelopes
-  - envoy
-  - Fabric
+  - fabric
   - flake8
   - Flask
-  - futures
   - gevent
-  - GreenletProfiler
   - gunicorn
   - hiredis
   - httpie
@@ -26,11 +24,12 @@ python_packages:
   - nose
   - passlib
   - pbr
+  - pendulum
   - Pillow
   - powerline-status
   - psutil
   - pylint
-  - saws
+  - rich
   - six
   - speedtest-cli
   - virtualenv
