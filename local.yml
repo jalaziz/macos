@@ -31,9 +31,8 @@
       command: brew bundle --file files/Brewfile.fonts
     - name: install python packages
       pip:
-        name: "{{ item }}"
+        name: "{{ python_packages }}"
         state: latest
-      with_items: "{{ python_packages }}"
     - name: set macos defaults
       script: files/.macos
     - debug:
