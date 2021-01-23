@@ -69,6 +69,7 @@ brew "iperf3"
 brew "jq"
 brew "jruby"
 brew "jython"
+brew "kubectx"
 brew "leiningen"
 brew "lftp"
 brew "lsof", link: true
