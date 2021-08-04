@@ -48,6 +48,7 @@ brew "gh"
 brew "git"
 brew "git-extras"
 brew "git-filter-repo"
+brew "git-imerge"
 brew "git-lfs"
 brew "gnupg", link: false
 brew "gnutls"
