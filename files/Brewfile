@@ -12,7 +12,7 @@ brew "autossh"
 brew "avro-tools"
 brew "awscli"
 brew "bash"
-brew "bazaar", link: false
+brew "breezy", link: false
 brew "byobu"
 brew "c-ares"
 brew "cabal-install"
