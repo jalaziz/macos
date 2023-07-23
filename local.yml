@@ -16,9 +16,9 @@
        - scutil --set LocalHostName "{{ hostname }}"
        - defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "{{ hostname }}"
     - name: install homebrew
-      shell: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      shell: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       args:
-        creates: /usr/local/bin/brew
+        creates: /opt/hombrew/bin/brew
     - name: install XQuartz
       homebrew_cask: name=xquartz state=installed
     - name: install binaries
