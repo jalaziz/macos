@@ -5,6 +5,7 @@ On a new machine, run:
 
 ```bash
 xcode-select --install
+softwareupdate --install-rosetta
 
 curl "https://bootstrap.pypa.io/get-pip.py" -o /tmp/get-pip.py
 sudo python3 /tmp/get-pip.py
