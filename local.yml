@@ -40,7 +40,7 @@
       script: files/.macos
     - name: set default shell to homebrew-installed zsh
       user:
-        name: {{ ansible_env.USER }}
+        name: "{{ ansible_env.USER }}"
         shell: /opt/homebrew/bin/zsh
       become: yes
     - debug:
