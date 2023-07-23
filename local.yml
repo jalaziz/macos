@@ -22,13 +22,13 @@
     - name: install XQuartz
       homebrew_cask: name=xquartz state=installed
     - name: install binaries
-      command: brew bundle --file files/Brewfile
+      command: /opt/homebrew/bin/brew bundle --file files/Brewfile
     - name: install apps
-      command: brew bundle --file files/Brewfile.apps
+      command: /opt/homebrew/bin/brew bundle --file files/Brewfile.apps
     - name: install mas apps
-      command: brew bundle --file files/Brewfile.mas
+      command: /opt/homebrew/bin/brew bundle --file files/Brewfile.mas
     - name: install fonts
-      command: brew bundle --file files/Brewfile.fonts
+      command: /opt/homebrew/bin/brew bundle --file files/Brewfile.fonts
     - name: install python packages
       pip:
         name: "{{ python_packages }}"
