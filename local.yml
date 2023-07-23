@@ -27,6 +27,9 @@
       command: /opt/homebrew/bin/brew bundle --file files/Brewfile.apps
     - name: install mas apps
       command: /opt/homebrew/bin/brew bundle --file files/Brewfile.mas
+    - name: accept xcode license
+      command: xcodebuild -license accept
+      become: yes
     - name: install fonts
       command: /opt/homebrew/bin/brew bundle --file files/Brewfile.fonts
     - name: install python packages
