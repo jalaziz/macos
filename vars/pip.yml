@@ -1,10 +1,6 @@
 ---
 python_packages:
-  - boto3
-  - click
   - cryptography
   - docopt
-  - httpie-oauth
-  - powerline-status
   - psutil
   - rich
