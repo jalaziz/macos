@@ -44,7 +44,7 @@
         shell: /opt/homebrew/bin/zsh
       become: yes
     - name: install nix
-      shell: /bin/bash -c "sh <(curl -L https://nixos.org/nix/install)"
+      shell: /bin/bash -c "$(curl -L https://nixos.org/nix/install)"
       args:
         creates: /nix/
     - debug:
