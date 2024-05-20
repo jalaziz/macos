@@ -1,4 +1,3 @@
-tap "homebrew/cask-fonts"
 tap "sscotth/monoid"
 cask "font-fira-code"
 cask "font-fira-mono"
