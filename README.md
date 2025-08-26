@@ -13,5 +13,7 @@ sudo pip install ansible
 export PYTHONUNBUFFERED=1
 export PYTHONIOENCODING='utf-8'
 ansible-pull -K -d /tmp/bootstrap -i localhost, -e 'ansible_python_interpreter=/usr/bin/python3' -U https://github.com/bts-bastion/macos.git
+# or to work from a branch
+# ansible-pull -K -d /tmp/bootstrap -i localhost, -e 'ansible_python_interpreter=/usr/bin/python3' -U https://github.com/bts-bastion/macos.git -C "bts/bastion"
 ```
 

@@ -1,4 +1,4 @@
-mas "Microsoft Remote Desktop", id: 1295203466
+#mas "Microsoft Remote Desktop", id: 1295203466 -- renamed "Windows App"
 #mas "Slack", id: 803453959
 #mas "Soulver 3", id: 1508732804
 mas "Speedtest", id: 1153157709
