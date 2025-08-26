@@ -1,5 +1,5 @@
-tap "homebrew/bundle"
-tap "homebrew/core"
+#tap "homebrew/bundle"
+#tap "homebrew/core"
 tap "hashicorp/tap"
 tap "weaveworks/tap"
 tap "withgraphite/tap"
