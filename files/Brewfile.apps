@@ -1,5 +1,5 @@
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
+# tap "homebrew/cask" - deprecated
+# tap "homebrew/cask-versions" - deprecated
 cask "aws-vault-binary"
 cask "cursor"
 cask "discord"
@@ -11,7 +11,7 @@ cask "firefox"
 #cask "pgadmin4"
 cask "plex"
 cask "qlcolorcode"
-cask "qlimagesize"
+#cask "qlimagesize" - disabled upstream
 cask "qlmarkdown"
 cask "qlprettypatch"
 cask "spotify"
@@ -21,4 +21,4 @@ cask "vagrant"
 cask "visual-studio-code"
 cask "warp"
 cask "wireshark-app"
-cask "yubico-yubikey-manager"
+# cask "yubico-yubikey-manager" - disabled upstream
