@@ -2,19 +2,19 @@
   connection: local
   vars_files:
     - vars/pip.yml
-  vars_prompt:
-    - name: "hostname"
-      prompt: "Computer Hostname"
-      private: no
+#  vars_prompt:
+#    - name: "hostname"
+#      prompt: "Computer Hostname"
+#      private: no
   tasks:
-    - name: set computer hostname
-      command: "{{ item }}"
-      become: yes
-      with_items:
-       - scutil --set ComputerName "{{ hostname }}"
-       - scutil --set HostName "{{ hostname }}"
-       - scutil --set LocalHostName "{{ hostname }}"
-       - defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "{{ hostname }}"
+#    - name: set computer hostname
+#      command: "{{ item }}"
+#      become: yes
+#      with_items:
+#       - scutil --set ComputerName "{{ hostname }}"
+#       - scutil --set HostName "{{ hostname }}"
+#       - scutil --set LocalHostName "{{ hostname }}"
+#       - defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "{{ hostname }}"
     - name: install homebrew
       shell: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       args:
@@ -38,10 +38,10 @@
         state: latest
     - name: set macos defaults
       script: files/.macos
-    - name: set default shell to homebrew-installed zsh
+    - name: set default shell to homebrew-installed bash
       user:
         name: "{{ ansible_env.USER }}"
-        shell: /opt/homebrew/bin/zsh
+        shell: /opt/homebrew/bin/bash
       become: yes
     - name: install nix
       shell: /bin/bash -c "$(curl -L https://nixos.org/nix/install)"

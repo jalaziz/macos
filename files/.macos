@@ -26,13 +26,13 @@ sudo -v
 sudo nvram SystemAudioVolume=" "
 
 # Set time to the 24-hour format
-defaults write NSGlobalDomain AppleICUForce24HourTime -int 1
+# defaults write NSGlobalDomain AppleICUForce24HourTime -int 1
 
 # Enable dark mode
-defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
+# defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
 
 # Set the "Drift" screensaver
-defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName -string "Drift" path -string "/System/Library/Screen Savers/Drift.saver" type -int 0
+# defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName -string "Drift" path -string "/System/Library/Screen Savers/Drift.saver" type -int 0
 
 # Set the sreensaver idle timeout
 defaults -currentHost write com.apple.screensaver idleTime -int 600
@@ -40,25 +40,25 @@ defaults -currentHost write com.apple.screensaver idleTime -int 600
 # Enable Night Shift
 # Source: https://github.com/LukeChannings/.config/blob/master/install.macos
 
-CORE_BRIGHTNESS="/var/root/Library/Preferences/com.apple.CoreBrightness.plist"
-ENABLE='{
-  CBBlueReductionStatus =     {
-    AutoBlueReductionEnabled = 1;
-    BlueLightReductionDisableScheduleAlertCounter = 3;
-    BlueLightReductionSchedule =         {
-      DayStartHour = 7;
-      DayStartMinute = 0;
-      NightStartHour = 22;
-      NightStartMinute = 0;
-    };
-    BlueReductionEnabled = 0;
-    BlueReductionMode = 1;
-    BlueReductionSunScheduleAllowed = 1;
-    Version = 1;
-  };
-}'
-sudo defaults write $CORE_BRIGHTNESS "CBUser-0" "$ENABLE"
-sudo defaults write $CORE_BRIGHTNESS "CBUser-$(dscl . -read ~ GeneratedUID | sed 's/GeneratedUID: //')" "$ENABLE"
+#CORE_BRIGHTNESS="/var/root/Library/Preferences/com.apple.CoreBrightness.plist"
+#ENABLE='{
+#  CBBlueReductionStatus =     {
+#    AutoBlueReductionEnabled = 1;
+#    BlueLightReductionDisableScheduleAlertCounter = 3;
+#    BlueLightReductionSchedule =         {
+#      DayStartHour = 7;
+#      DayStartMinute = 0;
+#      NightStartHour = 22;
+#      NightStartMinute = 0;
+#    };
+#    BlueReductionEnabled = 0;
+#    BlueReductionMode = 1;
+#    BlueReductionSunScheduleAllowed = 1;
+#    Version = 1;
+#  };
+#}'
+# sudo defaults write $CORE_BRIGHTNESS "CBUser-0" "$ENABLE"
+# sudo defaults write $CORE_BRIGHTNESS "CBUser-$(dscl . -read ~ GeneratedUID | sed 's/GeneratedUID: //')" "$ENABLE"
 
 # TODO: Figure out keyboard mapping automation (caps lock to escape)
 
@@ -69,7 +69,7 @@ sudo defaults write $CORE_BRIGHTNESS "CBUser-$(dscl . -read ~ GeneratedUID | sed
 #defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set sidebar icon size to medium
-defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
+# defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
 # Always show scrollbars
 #defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
@@ -83,15 +83,15 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 #defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
 
 # Increase window resize speed for Cocoa applications
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+#defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+#defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+#defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
 # Expand print panel by default
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+#defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+#defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
@@ -192,8 +192,8 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+#defaults write NSGlobalDomain KeyRepeat -int 1
+#defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -204,17 +204,17 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 #defaults write NSGlobalDomain AppleMetricUnits -bool false
 
 # Show language menu in the top right corner of the boot screen
-sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
+#sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "America/Los_Angeles" > /dev/null
+#sudo systemsetup -settimezone "America/Los_Angeles" > /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 # Set trackpack & mouse speed
-defaults write -g com.apple.trackpad.scaling 4
-defaults write -g com.apple.mouse.scaling 2.5
+#defaults write -g com.apple.trackpad.scaling 4
+#defaults write -g com.apple.mouse.scaling 2.5
 
 ###############################################################################
 # Energy saving                                                               #
@@ -224,10 +224,10 @@ defaults write -g com.apple.mouse.scaling 2.5
 sudo pmset -a lidwake 1
 
 # Restart automatically on power loss
-sudo pmset -a autorestart 1
+#sudo pmset -a autorestart 1
 
 # Restart automatically if the computer freezes
-sudo systemsetup -setrestartfreeze on
+#sudo systemsetup -setrestartfreeze on
 
 # Sleep the display after 15 minutes
 sudo pmset -a displaysleep 15
@@ -235,14 +235,14 @@ sudo pmset -a displaysleep 15
 # Disable machine sleep while charging
 sudo pmset -c sleep 0
 
-# Set machine sleep to 5 minutes on battery
-sudo pmset -b sleep 5
+# Set machine sleep to 15 minutes on battery
+sudo pmset -b sleep 15
 
 # Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
+#sudo pmset -a standbydelay 86400
 
 # Never go into computer sleep mode
-sudo systemsetup -setcomputersleep Off > /dev/null
+#sudo systemsetup -setcomputersleep Off > /dev/null
 
 # Hibernation mode
 # 0: Disable hibernation (speeds up entering sleep mode)
@@ -276,10 +276,10 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
-defaults write NSGlobalDomain AppleFontSmoothing -int 1
+#defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
 # Enable HiDPI display modes (requires restart)
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
+#sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
 ###############################################################################
 # Finder                                                                      #
@@ -410,13 +410,13 @@ defaults write com.apple.dock mouse-over-hilite-stack -bool true
 defaults write com.apple.dock tilesize -int 28
 
 # Enable Dock magnification
-defaults write com.apple.dock magnification -bool true
+#defaults write com.apple.dock magnification -bool true
 
 # Set Dock magnification size
-defaults write com.apple.dock largesize -float 78.0
+#defaults write com.apple.dock largesize -float 78.0
 
 # Set Dock orientation (bottom, left, right)
-defaults write com.apple.dock orientation -string "left"
+defaults write com.apple.dock orientation -string "bottom"
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "genie"
@@ -463,7 +463,7 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+#defaults write com.apple.dock autohide -bool true
 
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
@@ -478,11 +478,11 @@ defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 defaults write com.apple.dock showAppExposeGestureEnabled -int 1
 
 # Reset Launchpad, but keep the desktop wallpaper intact
-find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
+#find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
 # Add iOS & Watch Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
+#sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
+#sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
 # Add a spacer to the left side of the Dock (where the applications are)
 #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
@@ -517,8 +517,8 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (
 ###############################################################################
 
 # Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+#defaults write com.apple.Safari UniversalSearchEnabled -bool false
+#defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 # Press Tab to highlight each item on a web page
 defaults write com.apple.Safari WebKitTabToLinksPreferenceKey -bool true
@@ -534,7 +534,7 @@ defaults write com.apple.Safari HomePage -string "about:blank"
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # Allow hitting the Backspace key to go to the previous page in history
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool false
 
 # Hide Safari’s bookmarks bar by default
 defaults write com.apple.Safari ShowFavoritesBar -bool false

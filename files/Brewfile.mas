@@ -1,14 +1,9 @@
-mas "DaisyDisk", id: 411643860
-mas "Gapplin", id: 768053424
-mas "GoPro Quik", id: 561350520
-mas "iMovie", id: 408981434
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Pixelmator Pro", id: 1289583905
-mas "Slack", id: 803453959
-mas "Soulver 3", id: 1508732804
+#mas "Slack", id: 803453959
+#mas "Soulver 3", id: 1508732804
 mas "Speedtest", id: 1153157709
-mas "Tailscale", id: 1475387142
-mas "Textual IRC Client", id: 1262957439
-mas "The Unarchiver", id: 425424353
-mas "Todoist", id: 585829637
+#mas "Tailscale", id: 1475387142
+#mas "Textual IRC Client", id: 1262957439
+#mas "The Unarchiver", id: 425424353
+#mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
