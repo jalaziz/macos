@@ -1,5 +1,4 @@
 tap "homebrew/cask"
-tap "homebrew/cask-versions"
 tap "1password/tap"
 tap "gcenx/wine"
 cask "xquartz"
